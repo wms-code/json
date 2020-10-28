@@ -5,14 +5,14 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Maintb extends Model
+class Invoice extends Model
 {
     use HasFactory;
 
     protected $guarded = ['id'];
 
-    public function invoices()
+    public function items()
     {
-        return $this->hasMany(Invoice::class);
+        return $this->hasMany(InvoiceItem::class);
     }
 }

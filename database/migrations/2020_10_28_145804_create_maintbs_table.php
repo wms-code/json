@@ -17,7 +17,7 @@ class CreateMaintbsTable extends Migration
             $table->id();
             $table->string('gstin');
             $table->string('fp');
-            $table->json('b2b');
+            //$table->json('b2b');
             $table->timestamps();
         });
     }
