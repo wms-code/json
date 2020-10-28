@@ -2,7 +2,12 @@ main table:
 
 gstin varchar-"33AVXPJ4056D1ZH"
 fp varchar-"062020"
-b2p json   {"ctin":"33AAICP5367N1ZV","cfs":"Y",","cfs3b":"Y","inv":"0",fldtr1:"",flprdr1:""}
+b2p json   {"b2bid":"0"}
+
+b2b table:
+
+b2pid number 0
+b2bjsonvalue json  {"ctin":"33AAICP5367N1ZV","cfs":"Y",","cfs3b":"Y","inv":"0",fldtr1:"",flprdr1:""}
   
 invoice table:
 
