@@ -4,6 +4,17 @@ gstin varchar-"33AVXPJ4056D1ZH"
 fp varchar-"062020"
 b2p json   {"b2bid":"0"}
 
+
+gstin varchar-"33AVXPJ4056D1ZH"
+fp varchar-"062020"
+b2p json   {"b2bid":"0"}
+
+gstin varchar-"33AVXPJ4056D1ZH"
+fp varchar-"062020"
+b2p json   {"b2bid":"1"}
+
+
+
 b2b table:
 
 b2pid number 0
