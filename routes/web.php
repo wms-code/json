@@ -19,7 +19,7 @@ Route::get('/', function () {
     //$data['b2b']=json_encode($jsonobj['b2b']);
      $dbs= Maintb::create($data);
 
-    //Get Invoice Table 
+    // Invoice Table 
 
     foreach ($jsonobj['b2b'] as  $record) {
 
@@ -31,7 +31,7 @@ Route::get('/', function () {
         $invoice['flprdr1']=$record['flprdr1'];
         $ins=Invoice::create($invoice);  
 
-
+        // InvoiceItem Table 
 
         foreach ($record['inv'] as  $item) {
 
