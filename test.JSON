@@ -1,0 +1,131 @@
+
+
+{
+	"gstin": "33AVXPJ4056D1ZH",
+	"fp": "062020",
+	"b2b": [
+		{
+			"ctin": "33AAICP5367N1ZV",
+			"cfs": "Y",
+			"cfs3b": "Y",
+			"inv": [
+				{
+					"itms": [
+						{
+							"num": 1201,
+							"itm_det": {
+								"csamt": 0,
+								"samt": 0.72,
+								"rt": 12,
+								"txval": 12.05,
+								"camt": 0.72
+							}
+						}
+					],
+					"val": 13.5,
+					"inv_typ": "R",
+					"pos": "33",
+					"idt": "15-06-2020",
+					"rchrg": "N",
+					"inum": "2021/00148",
+					"chksum": "95f9965b2ae71cb78064a7695c811aca07ddbd54b8291da8fd29300dcdd353da"
+				},
+				{
+					"itms": [
+						{
+							"num": 1801,
+							"itm_det": {
+								"csamt": 0,
+								"samt": 75.21,
+								"rt": 18,
+								"txval": 835.62,
+								"camt": 75.21
+							}
+						}
+					],
+					"val": 986.03,
+					"inv_typ": "R",
+					"pos": "33",
+					"idt": "15-06-2020",
+					"rchrg": "N",
+					"inum": "2021/00148A",
+					"chksum": "782fb9e205fc290549f500869fd89d64c186f1b8341ac93b0ce772f83d4e18bf"
+				},
+				{
+					"itms": [
+						{
+							"num": 1201,
+							"itm_det": {
+								"csamt": 0,
+								"samt": 13.93,
+								"rt": 12,
+								"txval": 232.14,
+								"camt": 13.93
+							}
+						}
+					],
+					"val": 260,
+					"inv_typ": "R",
+					"pos": "33",
+					"idt": "17-06-2020",
+					"rchrg": "N",
+					"inum": "2021/00163",
+					"chksum": "65d390bf114b3d319c1de638efb45fd530c98ea0ac6954ebfe93bb8cfbc41cbc"
+				},
+				{
+					"itms": [
+						{
+							"num": 1801,
+							"itm_det": {
+								"csamt": 0,
+								"samt": 28.98,
+								"rt": 18,
+								"txval": 322.03,
+								"camt": 28.98
+							}
+						}
+					],
+					"val": 380,
+					"inv_typ": "R",
+					"pos": "33",
+					"idt": "17-06-2020",
+					"rchrg": "N",
+					"inum": "2021/00163A",
+					"chksum": "71fb2bdac5213a5cd86a66262671539cd16042efb6aff370eaab623292958817"
+				}
+			],
+			"fldtr1": "13-Jul-20",
+			"flprdr1": "Jun-20"
+		},
+		{
+			"ctin": "33AAKFK6540R1ZR",
+			"cfs": "Y",
+			"cfs3b": "Y",
+			"inv": [
+				{
+					"itms": [
+						{
+							"num": 1801,
+							"itm_det": {
+								"csamt": 0,
+								"samt": 155.59,
+								"rt": 18,
+								"txval": 1728.8,
+								"camt": 155.59
+							}
+						}
+					],
+					"val": 2039.98,
+					"inv_typ": "R",
+					"pos": "33",
+					"idt": "09-06-2020",
+					"rchrg": "N",
+					"inum": "2056B",
+					"chksum": "48766be4b7e9b697313a596fd58f3713bef6293b032659868268c58908b5bbe8"
+				}
+			],
+			"fldtr1": "13-Aug-20",
+			"flprdr1": "Jun-20"
+		}
+	]
+}
