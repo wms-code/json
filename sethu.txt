@@ -1,0 +1,31 @@
+main table:
+
+gstin varchar-"33AVXPJ4056D1ZH"
+fp varchar-"062020"
+b2p json   {"ctin":"33AAICP5367N1ZV","cfs":"Y",","cfs3b":"Y","inv":"0"}
+
+invoice table:
+
+invid - number  - 0
+itms - json - {"num":"1201","item_det":"0"}
+val - double - 13.5
+inv_tpe-varcahr - R
+pos - varchar-33
+idt-varchar - "15-06-2020"
+rchrg- varcahr- "n"
+inum- varcahr - "2021/00148"
+chksum -varchar - "95f9965b2ae71cb78064a7695c811aca07ddbd54b8291da8fd29300dcdd353da"
+
+itemdeails:
+
+itemdeailsid - number  - 0
+itmid - varcahr - 1201
+csamt - double - 0
+samt-double - 0.72
+rt - double 12
+txtval-varchar - "12.05"
+camt- double - "0.72"
+ 
+
+
+ 
