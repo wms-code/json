@@ -1,0 +1,288 @@
+{
+	"type": "object",
+	"$schema": "http://json-schema.org/draft-06/schema#",
+	"description": "JSON schema generated with JSONBuddy https://www.json-buddy.com",
+	"properties": {
+		"b2b": {
+			"type": "array",
+			"items": [
+				{
+					"type": "object",
+					"properties": {
+						"cfs": {
+							"type": "string"
+						},
+						"cfs3b": {
+							"type": "string"
+						},
+						"ctin": {
+							"type": "string"
+						},
+						"fldtr1": {
+							"type": "string"
+						},
+						"flprdr1": {
+							"type": "string"
+						},
+						"inv": {
+							"type": "array",
+							"items": [
+								{
+									"type": "object",
+									"properties": {
+										"chksum": {
+											"type": "string"
+										},
+										"idt": {
+											"type": "string"
+										},
+										"inum": {
+											"type": "string"
+										},
+										"inv_typ": {
+											"type": "string"
+										},
+										"itms": {
+											"type": "array",
+											"items": {
+												"type": "object",
+												"properties": {
+													"itm_det": {
+														"$ref": "#/definitions/itm_det"
+													},
+													"num": {
+														"type": "integer"
+													}
+												}
+											}
+										},
+										"pos": {
+											"type": "string"
+										},
+										"rchrg": {
+											"type": "string"
+										},
+										"val": {
+											"type": "number"
+										}
+									}
+								},
+								{
+									"type": "object",
+									"properties": {
+										"chksum": {
+											"type": "string"
+										},
+										"idt": {
+											"type": "string"
+										},
+										"inum": {
+											"type": "string"
+										},
+										"inv_typ": {
+											"type": "string"
+										},
+										"itms": {
+											"type": "array",
+											"items": {
+												"type": "object",
+												"properties": {
+													"itm_det": {
+														"$ref": "#/definitions/itm_det"
+													},
+													"num": {
+														"type": "integer"
+													}
+												}
+											}
+										},
+										"pos": {
+											"type": "string"
+										},
+										"rchrg": {
+											"type": "string"
+										},
+										"val": {
+											"type": "number"
+										}
+									}
+								},
+								{
+									"type": "object",
+									"properties": {
+										"chksum": {
+											"type": "string"
+										},
+										"idt": {
+											"type": "string"
+										},
+										"inum": {
+											"type": "string"
+										},
+										"inv_typ": {
+											"type": "string"
+										},
+										"itms": {
+											"type": "array",
+											"items": {
+												"type": "object",
+												"properties": {
+													"itm_det": {
+														"$ref": "#/definitions/itm_det"
+													},
+													"num": {
+														"type": "integer"
+													}
+												}
+											}
+										},
+										"pos": {
+											"type": "string"
+										},
+										"rchrg": {
+											"type": "string"
+										},
+										"val": {
+											"type": "integer"
+										}
+									}
+								},
+								{
+									"type": "object",
+									"properties": {
+										"chksum": {
+											"type": "string"
+										},
+										"idt": {
+											"type": "string"
+										},
+										"inum": {
+											"type": "string"
+										},
+										"inv_typ": {
+											"type": "string"
+										},
+										"itms": {
+											"type": "array",
+											"items": {
+												"type": "object",
+												"properties": {
+													"itm_det": {
+														"$ref": "#/definitions/itm_det"
+													},
+													"num": {
+														"type": "integer"
+													}
+												}
+											}
+										},
+										"pos": {
+											"type": "string"
+										},
+										"rchrg": {
+											"type": "string"
+										},
+										"val": {
+											"type": "integer"
+										}
+									}
+								}
+							]
+						}
+					}
+				},
+				{
+					"type": "object",
+					"properties": {
+						"cfs": {
+							"type": "string"
+						},
+						"cfs3b": {
+							"type": "string"
+						},
+						"ctin": {
+							"type": "string"
+						},
+						"fldtr1": {
+							"type": "string"
+						},
+						"flprdr1": {
+							"type": "string"
+						},
+						"inv": {
+							"type": "array",
+							"items": {
+								"type": "object",
+								"properties": {
+									"chksum": {
+										"type": "string"
+									},
+									"idt": {
+										"type": "string"
+									},
+									"inum": {
+										"type": "string"
+									},
+									"inv_typ": {
+										"type": "string"
+									},
+									"itms": {
+										"type": "array",
+										"items": {
+											"type": "object",
+											"properties": {
+												"itm_det": {
+													"$ref": "#/definitions/itm_det"
+												},
+												"num": {
+													"type": "integer"
+												}
+											}
+										}
+									},
+									"pos": {
+										"type": "string"
+									},
+									"rchrg": {
+										"type": "string"
+									},
+									"val": {
+										"type": "number"
+									}
+								}
+							}
+						}
+					}
+				}
+			]
+		},
+		"fp": {
+			"type": "string"
+		},
+		"gstin": {
+			"type": "string"
+		}
+	},
+	"definitions": {
+		"itm_det": {
+			"type": "object",
+			"properties": {
+				"camt": {
+					"type": "number"
+				},
+				"csamt": {
+					"type": "integer"
+				},
+				"rt": {
+					"type": "integer"
+				},
+				"samt": {
+					"type": "number"
+				},
+				"txval": {
+					"type": "number"
+				}
+			}
+		}
+	}
+}
