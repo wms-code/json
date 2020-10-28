@@ -2,10 +2,8 @@ main table:
 
 gstin varchar-"33AVXPJ4056D1ZH"
 fp varchar-"062020"
-b2p json   {"ctin":"33AAICP5367N1ZV","cfs":"Y",","cfs3b":"Y","inv":"0"}
-fldtr1 varchar-" "13-Jul-20","
-flprdr1 varchar-"Jun-20"
-
+b2p json   {"ctin":"33AAICP5367N1ZV","cfs":"Y",","cfs3b":"Y","inv":"0",fldtr1:"",flprdr1:""}
+  
 invoice table:
 
 invid - number  - 0
